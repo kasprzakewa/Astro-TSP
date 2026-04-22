@@ -1,0 +1,6 @@
+Astro-TSP benchmark summary
+
+n_nodes: 6
+- best mean cost: branch_and_bound (80.202997)
+- fastest mean time: branch_and_bound (0.013396s)
+- ILP vs B&B validation: all matched

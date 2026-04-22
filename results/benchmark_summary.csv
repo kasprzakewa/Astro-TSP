@@ -1,0 +1,2 @@
+solver,n_nodes,runs,mean_cost,max_cost,std_cost,best_cost,worst_cost,mean_time_s,max_time_s,std_time_s,mean_memory_mb,max_memory_mb,mean_gap_pct,max_gap_pct,exact_match_rate,consistency_error_rate
+branch_and_bound,12,5,0.0,0.0,0.0,0.0,0.0,60.0,60.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

@@ -1,0 +1,17 @@
+{
+  "output_dir": "results",
+  "epoch": "2026-04-21T00:00:00",
+  "n_values": [12, 14, 16, 18, 20],
+  "instances_per_n": 5,
+  "aco_repetitions": 5,
+  "timeout_seconds": 60,
+  "global_seed": 42,
+  "aco_seeds": [11, 22, 33, 44, 55],
+  "asteroid_pools": [
+    {"name": "The Classics", "start_id": 1, "end_id": 5000},
+    {"name": "Deep Main Belt", "start_id": 10001, "end_id": 40000},
+    {"name": "Extended Reservoir", "start_id": 50001, "end_id": 100000}
+  ],
+  "enabled_solvers": ["branch_and_bound"],
+  "anchor_body_ids": ["399"]
+}
